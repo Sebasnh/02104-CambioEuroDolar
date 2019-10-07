@@ -22,15 +22,14 @@ import java.util.Locale;
  * @author Sebastian Najarro Heredia - sebastian.najarro.alum@iescamp.es
  */
 public class Main {
+
     public static void main(String[] args) {
-         
-       System.out.print("El valor de 1 euro es equivalente a ");
-       System.out.printf(Locale.ENGLISH,"%.2f",1.1);
-       System.out.print("");
-       System.out.println(" dólares.");
-       
-          
+
+        System.out.print("El valor de 1 euro es equivalente a ");
+        System.out.printf(Locale.ENGLISH, "%.2f", 1.1);
+        System.out.print("");
+        System.out.println(" dólares.");
+
     }
-   
-    
+
 }
